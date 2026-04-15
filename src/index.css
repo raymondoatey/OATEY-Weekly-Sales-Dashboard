@@ -1,0 +1,17 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #eef1f5;
+}
+
+#root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  min-height: 100%;
+}
